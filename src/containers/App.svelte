@@ -1,6 +1,15 @@
-<script></script>
+<script>
+    import Header from '../components/Header.svelte';
+    import Main from '../components/Main.svelte';
+    import Sidebar from '../components/Sidebar.svelte'
+    import TimeLine from '../components/Timeline.svelte'
+</script>
 <div class="main">
-    <h1>Hello Svelte</h1>
+    <Header />
+    <Main>
+        <TimeLine />
+        <Sidebar />
+    </Main>
 </div>
 
 <style>
